@@ -1,28 +1,50 @@
 html {
-    margin: 1px;
-    background-color: #260F03;
+    margin: 0;
+    background-color: #e5d5c1;
+    overflow: hidden;
 }
 
 .board {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10vh 80vh;
+    grid-template-rows: 10vh 85vh;
+    gap: 20px;
 }
 
 .board-grid {
     display: grid;
-    grid-template-columns: 10vw 10vw 10vw;
-    gap: 10vh;
+    grid-template-columns: repeat(5, 10vw);
+    gap: 5vh;
     grid-template-rows: 100vw;
-    background-color: #EBFDFF;
-    border: 0px solid none;
+    background-color: #2b1b1c;
+    border: 1px solid black;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .grid-item {
+    margin: 0px 0px 0px 5vw;
     text-align: center;
     vertical-align: middle;
     line-height: 10vh;
+}
+
+.grid-item a {
+    font-family: "Schoolbell", serif, sans-serif, Arial;
+    font-size: 130%;
+    color: #d5c8c8;
+    text-decoration: none;
+}
+
+a:active {
+    color: #d5c8c8;
+}
+
+
+.board-content {
+    background-color: #D0BDA6;
+    border: 0px solid none;
+    border-radius: 10px;
+    padding: 5px 15px;
 }
 /* source: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block */
