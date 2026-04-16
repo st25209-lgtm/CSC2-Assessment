@@ -48,3 +48,18 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-height: 700px) {
+    .board {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15vh 80vh;
+        gap: 20px;
+    }
+    .grid-item {
+        margin: 0px 0px 0px 5vw;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 15vh;
+    }
+}
