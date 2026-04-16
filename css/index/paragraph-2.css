@@ -6,3 +6,11 @@
     padding: 15px;
     overflow: auto;
 }
+
+.paragraph-2-heading p {
+    color: #F5F5F5;
+    font-family: 'Miranda Sans', sans-serif, Arial, serif;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+}
