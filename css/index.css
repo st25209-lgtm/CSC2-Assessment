@@ -4,6 +4,10 @@ html {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 .board {
     display: grid;
     grid-template-columns: 100%;
