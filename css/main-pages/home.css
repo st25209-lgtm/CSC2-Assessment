@@ -12,3 +12,12 @@
     padding: 0px 5px 0px 5px;
     border-radius: 5px;
 }
+
+.specialty-grid, .casual-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(1, 300px);
+    overflow: scroll;
+    padding: 0px;
+}
