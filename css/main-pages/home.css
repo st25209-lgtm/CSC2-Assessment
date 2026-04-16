@@ -1,3 +1,14 @@
 .home-content-heading {
     margin: -40px 0px 0px 0px;
 }
+
+.home-heading {
+    background-color: #2b1b1c;
+    color: #e5d5c1;
+    font-family: 'Miranda Sans', sans-serif, Arial, serif;
+    letter-spacing: 0.5px;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
