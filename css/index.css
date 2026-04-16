@@ -14,8 +14,8 @@ html {
 .board-grid {
     display: grid;
     grid-template-columns: repeat(5, 10vw);
-    gap: 5vh;
-    grid-template-rows: 100vw;
+    gap: 5vw;
+    grid-template-rows: 100vh;
     background-color: #2b1b1c;
     border: 1px solid black;
     border-radius: 10px;
