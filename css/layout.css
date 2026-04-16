@@ -10,3 +10,14 @@
 .description {
         font-family: 'Inter', sans-serif, Arial, serif;
 }
+
+@media screen and (max-width: 400px) {
+    .board-grid {
+        display: grid;
+        gap: 5vw;
+        font-size: 10px;
+    }
+    .grid-item {
+        margin: 0px 0px 0px 15px;
+    }
+}
