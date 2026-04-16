@@ -36,3 +36,15 @@
         font-size: 50px;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .explore-heading {
+        font-size: 80px;
+    }
+    .paragraph-2-heading {
+        font-size: 80px;
+    }
+    #description {
+        font-size: 20px;
+    }
+}
