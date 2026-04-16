@@ -31,13 +31,29 @@
 .socials-grid {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(2, 600px);
-    grid-template-rows: 200px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(2, 200px);
     overflow: scroll;
 }
 
 .socials-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #d5c8c8;
     border-radius: 30px;
     overflow: hidden;
+}
+
+.socials-item img {
+    width: 200px;
+    height: 200px;
+}
+
+.socials-item-1 {
+    background-image: url('/img/contact/banner-1.png');
+}
+
+.socials-item-2 {
+    background-image: url('/img/contact/banner-2.png');
 }
