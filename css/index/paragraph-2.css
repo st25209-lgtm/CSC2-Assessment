@@ -63,3 +63,14 @@
         width: calc(0.3 * 600px);
     }
 }
+
+@media screen and (max-width: 900px) {
+    .paragraph-2-selector {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(5, 20%);
+        overflow: scroll;
+        overflow-x: 200px;
+    }
+}
