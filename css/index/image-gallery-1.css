@@ -45,3 +45,10 @@
     height: auto;
     width: auto;  
 }
+
+.image-5 img {
+    height: 400px;
+    width: 700px; 
+    position: relative;  
+    right: 100px;   
+}
