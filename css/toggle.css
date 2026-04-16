@@ -1,3 +1,20 @@
 .home-content, .about-us, .more-content, .cuisine-content {
     display: none;
 }
+
+#description:hover {
+    animation: hoverActive 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) 1 forwards;
+}
+#description:not(:hover) {
+    animation: hoverInactive 1s cubic-bezier(0.075, 0.82, 0.165, 1) 1 forwards;
+}
+
+@keyframes hoverActive {
+    from { position: relative; top: 0px; }
+    to { position: relative; top: 5px; }
+}
+
+@keyframes hoverInactive {
+    from { position: relative; top: 5px; }
+    to { position: relative; top: 0px; }
+}
