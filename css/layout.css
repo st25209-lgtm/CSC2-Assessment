@@ -1,1 +1,8 @@
 /* Changes the layout of index.css based on the size of the browser*/
+
+.explore-heading p {
+    font-family: 'Miranda Sans', sans-serif, Arial, serif;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    margin: 0;
+}
