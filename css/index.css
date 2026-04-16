@@ -45,6 +45,9 @@ a:active {
     background-color: #D0BDA6;
     border: 0px solid none;
     border-radius: 10px;
-    padding: 5px 15px;
+    padding: 20px 15px;
+    overflow: scroll;
+    overflow-x: 0px;
+    overflow-y: 200px;
 }
 /* source: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block */
