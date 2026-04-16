@@ -21,3 +21,9 @@
         margin: 0px 0px 0px 15px;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .board-grid {
+        gap: 10vw;
+    }
+}
