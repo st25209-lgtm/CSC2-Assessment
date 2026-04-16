@@ -1,0 +1,11 @@
+.image-gallery-1 {
+        display: grid;
+        grid-template-columns: repeat(6, 300px);
+        grid-template-rows: repeat(1, 300px);
+        gap: 15px;
+        overflow: scroll;
+        overflow-x: auto;
+        overflow-y: 0px;
+        scrollbar-width: none;
+        margin: 15px 0px 15px 0px;
+    }
