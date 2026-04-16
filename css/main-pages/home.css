@@ -30,3 +30,8 @@
     background-color: #2b1b1c;
     overflow: hidden;
 }
+
+.specialty-item img, .casual-item img {
+    width: 500px;
+    height: 300px;
+}
