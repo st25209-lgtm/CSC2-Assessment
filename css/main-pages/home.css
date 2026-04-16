@@ -35,3 +35,11 @@
     width: 500px;
     height: 300px;
 }
+
+.home-content-end {
+    margin: 20px 0px 0px 0px;
+    padding: 50px;
+    background-color: #2b1b1c;
+    font-family: 'Schoolbell', sans-serif, serif, Arial;
+    color: #e5d5c1;
+}
