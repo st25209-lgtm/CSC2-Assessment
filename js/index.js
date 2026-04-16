@@ -31,7 +31,7 @@ function aboutUs() {
     };
 }
 
-function more() {
+function contact() {
     const show = document.getElementsByClassName("contact-content")
     const notShow = document.querySelectorAll(".explore,.home-content,.cuisine-content,.about-us")
     for (i = 0; i < show.length; i++) {
