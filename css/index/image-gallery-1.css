@@ -31,3 +31,10 @@
     height: auto;
     width: auto;
 }
+
+.image-3 img {
+    max-height: 500px;
+    max-width: 500px;
+    height: auto;
+    width: auto;
+}
