@@ -3,3 +3,21 @@
     height: 100%;
     padding: 20px;
 }
+
+.contact-heading p {
+    font-family: 'Miranda Sans', serif, sans-serif, Arial;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px;
+    color: snow;
+}
+
+.contact-link {
+    font-size: 15px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.contact-link a {
+    color: lightgray;
+}
