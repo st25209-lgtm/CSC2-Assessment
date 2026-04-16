@@ -38,3 +38,11 @@
     height: calc(0.5 * 400px);
     width: calc(0.5 * 600px);
 }
+
+#selection-text {
+    text-align: center;
+    font-family: "Miranda Sans", serif, sans-serif, Arial;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: snow;
+}
