@@ -17,3 +17,10 @@
     max-width: 400px;
     overflow: hidden;
 }
+
+.image-1 img {
+    max-height: 500px;
+    max-width: 500px;
+    height: auto;
+    width: auto;
+}
