@@ -52,3 +52,10 @@
     position: relative;  
     right: 100px;   
 }
+
+.image-6 img {
+    height: 400px;
+    width: 600px;
+    position: relative;  
+    right: 100px; 
+}
