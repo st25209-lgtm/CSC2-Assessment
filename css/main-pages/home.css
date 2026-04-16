@@ -21,3 +21,12 @@
     overflow: scroll;
     padding: 0px;
 }
+
+.specialty-item, .casual-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #2b1b1c;
+    overflow: hidden;
+}
