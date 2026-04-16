@@ -1,6 +1,6 @@
 function home() {
     const show = document.getElementsByClassName("home-content")
-    const notShow = document.querySelectorAll(".explore,.cuisine-content,.about-us,.more-content")
+    const notShow = document.querySelectorAll(".explore,.cuisine-content,.about-us,.contact-content")
     for (i = 0; i < show.length; i++) {
         show[i].style.display = "block"
     };
@@ -11,7 +11,7 @@ function home() {
 
 function cuisine() {
     const show = document.getElementsByClassName("cuisine-content")
-    const notShow = document.querySelectorAll(".explore,.home-content,.about-us,.more-content")
+    const notShow = document.querySelectorAll(".explore,.home-content,.about-us,.contact-content")
     for (i = 0; i < show.length; i++) {
         show[i].style.display = "block"
     } 
@@ -22,7 +22,7 @@ function cuisine() {
 
 function aboutUs() {
     const show = document.getElementsByClassName("about-us")
-    const notShow = document.querySelectorAll(".explore,.home-content,.cuisine-content,.more-content")
+    const notShow = document.querySelectorAll(".explore,.home-content,.cuisine-content,.contact-content")
     for (i = 0; i < show.length; i++) {
         show[i].style.display = "block"
     }
@@ -32,7 +32,7 @@ function aboutUs() {
 }
 
 function more() {
-    const show = document.getElementsByClassName("more-content")
+    const show = document.getElementsByClassName("contact-content")
     const notShow = document.querySelectorAll(".explore,.home-content,.cuisine-content,.about-us")
     for (i = 0; i < show.length; i++) {
         show[i].style.display = "block"
