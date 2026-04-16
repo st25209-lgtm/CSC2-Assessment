@@ -9,3 +9,11 @@
         scrollbar-width: none;
         margin: 15px 0px 15px 0px;
     }
+
+.image-container-1 {
+    border: 0.5px solid black;
+    border-radius: 20px;
+    max-height: 300px;
+    max-width: 400px;
+    overflow: hidden;
+}
