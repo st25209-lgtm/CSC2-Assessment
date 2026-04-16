@@ -1,0 +1,8 @@
+.paragraph-2 {
+    width: auto;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #2b1b1c;
+    padding: 15px;
+    overflow: auto;
+}
