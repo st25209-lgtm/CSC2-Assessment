@@ -26,6 +26,7 @@
     border-radius: 10px;
     background-color: #2b1b1c;
     overflow: hidden;
+    margin: 15px 0px 15px 0px;
 }
 
 .specialty-item img, .casual-item img {
