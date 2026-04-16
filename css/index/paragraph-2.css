@@ -14,3 +14,12 @@
     font-weight: 600;
     margin: 0px 0px 10px 0px;
 }
+
+.paragraph-2-selector {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 400px);
+    grid-template-rows: 620px;
+    overflow: scroll;
+    overflow-x: 200px;
+}
