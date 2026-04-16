@@ -46,3 +46,20 @@
     font-size: 30px;
     color: snow;
 }
+
+@media screen and (max-width: 300px) {
+    .paragraph-2-selector-item img{
+        height: calc(0.2 * 400px);
+        width: calc(0.2 * 600px);
+    }
+    #selection-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .paragraph-2-selector-item img{
+        height: calc(0.3 * 400px);
+        width: calc(0.3 * 600px);
+    }
+}
