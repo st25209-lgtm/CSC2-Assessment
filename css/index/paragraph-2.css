@@ -23,3 +23,13 @@
     overflow: scroll;
     overflow-x: 200px;
 }
+
+.paragraph-2-selector-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #453537;
+    padding: 40px;
+}
