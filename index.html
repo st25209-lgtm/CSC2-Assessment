@@ -215,12 +215,16 @@
                         <p>Images</p>
                     </div>
                     <div class="contact-image-slider">
-                        <div class="image-slider-item image-slider-item-1">
-                            <span>Previous Image</span>
+                        <div class="image-slider-item image-slider-item-1" onclick="proceedSlide(-1)">
+                            <span>&#10094;</span>
                         </div>
-                        <div class="image-slider-item image-slider-item-2"></div>
-                        <div class="image-slider-item image-slider-item-3">
-                            <span>Next Image</span>
+                        <div class="image-slider-item image-slider-item-2">
+                            <img class="slide-items" id="image-slider-item" src="">
+                            <img class="slide-items" id="image-slider-item" src="">
+                            <img class="slide-items" id="image-slider-item" src="">
+                        </div>
+                        <div class="image-slider-item image-slider-item-3" onclick="proceedSlide(1)">
+                            <span>&#10095;</span>
                         </div>
                     </div>
                 </div>
