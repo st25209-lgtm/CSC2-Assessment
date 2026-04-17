@@ -61,6 +61,15 @@
     width: 350px;
 }
 
+#selection-text:hover {
+    animation: highlighter 1s ease 0s 1 forwards;
+}
+
+@keyframes highlighter {
+    from { opacity: 50% }
+    to { border-radius: 10px; background-color: black; }
+}
+
 @media screen and (max-width: 300px) {
     .paragraph-2-selector-item img{
         height: calc(0.2 * 400px);
