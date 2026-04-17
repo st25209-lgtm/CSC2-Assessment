@@ -48,6 +48,19 @@
     padding: 10px;
 }
 
+.paragraph-selector-container {
+    position: relative;
+    text-align: center;
+}
+
+.paragraph-2-selector-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    width: 350px;
+}
+
 @media screen and (max-width: 300px) {
     .paragraph-2-selector-item img{
         height: calc(0.2 * 400px);
