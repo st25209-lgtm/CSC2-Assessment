@@ -54,4 +54,11 @@
     #socials-logo-alt {
         display: none;
     }
+    .socials-item img {
+        width: 200px;
+        height: 200px;
+    }
+    .socials-item {
+        width: 100%;
+    }
 }
