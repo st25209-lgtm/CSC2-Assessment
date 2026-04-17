@@ -103,6 +103,7 @@
     background-color: grey;
 }
 
+/* Image Slider */
 @media screen and (min-width: 600px) {
     .contact-image-slider {
         display: grid;
