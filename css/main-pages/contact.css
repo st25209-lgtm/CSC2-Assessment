@@ -45,15 +45,7 @@
     overflow: hidden;
 }
 
-.socials-item img {
-    width: 200px;
+.socials-item-1, .socials-item-2 {
+    width: 614px;
     height: 200px;
-}
-
-.socials-item-1 {
-    background-image: url('/img/contact/banner-1.png');
-}
-
-.socials-item-2 {
-    background-image: url('/img/contact/banner-2.png');
 }
