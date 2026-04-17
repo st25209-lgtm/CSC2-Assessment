@@ -61,4 +61,10 @@
     .socials-item {
         width: 100%;
     }
+    .socials-item-1 {
+        background-image: url('/img/contact/banner-1.png');
+    }
+    .socials-item-2 {
+        background-image: url('/img/contact/banner-2.png');
+    }
 }
