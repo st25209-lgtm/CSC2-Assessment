@@ -77,3 +77,13 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .socials-grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 600px);
+        grid-template-rows: repeat(1, 200px);
+        overflow: scroll;
+    }
+}
