@@ -114,3 +114,9 @@
         height: 600px;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .contact-image-slider {
+        grid-template-rows: 900px;    
+    }
+}
