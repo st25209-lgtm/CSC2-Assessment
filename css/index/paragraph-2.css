@@ -62,6 +62,13 @@
     background-position: 0px 0px;
 }
 
+.p2s-item-3 {
+    background-image: url("https://farm8.staticflickr.com/7313/9717466408_f44527773f_o.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    background-position: -300px 0px;
+}
+
 .paragraph-selector-container {
     position: relative;
     text-align: center;
