@@ -55,6 +55,13 @@
     background-position: -300px 0px;
 }
 
+.p2s-item-2 {
+    background-image: url("https://th.bing.com/th/id/R.c28155c540844aa9689cd42f173b6eb6?rik=sHNz3zUmiGKmJA&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    background-position: 0px 0px;
+}
+
 .paragraph-selector-container {
     position: relative;
     text-align: center;
