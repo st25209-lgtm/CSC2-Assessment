@@ -48,6 +48,13 @@
     padding: 10px;
 }
 
+.p2s-item-1 {
+    background-image: url("https://primer.com.ph/travel/wp-content/uploads/sites/6/2016/03/mt.-mayon-e1456910184492.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    background-position: -300px 0px;
+}
+
 .paragraph-selector-container {
     position: relative;
     text-align: center;
