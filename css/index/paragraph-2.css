@@ -69,6 +69,14 @@
     background-position: -300px 0px;
 }
 
+.p2s-item-4 {
+    background-image: url("https://aseanup.com/wp-content/uploads/2018/06/manila-skyline.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    background-position: -300px 0px;
+}
+
+
 .paragraph-selector-container {
     position: relative;
     text-align: center;
