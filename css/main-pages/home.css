@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     border-radius: 10px;
     background-color: #2b1b1c;
     overflow: hidden;
@@ -32,6 +33,21 @@
 .specialty-item img, .casual-item img {
     width: 500px;
     height: 300px;
+}
+
+.specialty-description, .casual-description {
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 150%);
+    font-family: 'Inter', sans-serif, serif, Arial;
+    font-size: 30px;
+    width: 300px;
+    padding: 10px;
+    color: snow;
+    text-align: center;
 }
 
 .home-content-end {
