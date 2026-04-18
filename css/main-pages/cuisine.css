@@ -6,7 +6,7 @@
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: repeat(6, auto);
+    grid-template-rows: repeat(6, 280px);
     overflow: scroll;
 }
 
