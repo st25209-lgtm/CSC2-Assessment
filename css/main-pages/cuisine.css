@@ -56,3 +56,7 @@
     color: #e5d5c1;
     border-radius: 10px;
 }
+
+.cuisine-item {
+    max-width: 920px;
+}
