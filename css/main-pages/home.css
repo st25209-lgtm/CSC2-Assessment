@@ -57,3 +57,15 @@
     font-family: 'Schoolbell', sans-serif, serif, Arial;
     color: #e5d5c1;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .specialty-grid, .casual-grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 500px);
+        grid-template-rows: repeat(2, 300px);
+        overflow: scroll;
+        padding: 0px;
+    }
+}
