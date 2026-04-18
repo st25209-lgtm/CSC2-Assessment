@@ -60,3 +60,15 @@
 .cuisine-item {
     max-width: 920px;
 }
+
+@media screen and (max-width: 600px) {
+    .cuisine-overview-description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cuisine-overview-description {
+        font-size: 10px;
+    }
+}
