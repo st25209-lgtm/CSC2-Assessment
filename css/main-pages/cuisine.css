@@ -9,3 +9,8 @@
     color: hsl(33, 41%, 83%);
     border-radius: 10px;
 }
+
+.cuisine-main-heading {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
+}
