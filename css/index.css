@@ -18,7 +18,7 @@ a {
 .board {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10vh 85vh;
+    grid-template-rows: 10vh 90vh;
     gap: 20px;
     max-height: 1500px;
     max-width: 2000px;
@@ -56,6 +56,23 @@ a:active {
     color: #d5c8c8;
 }
 
+.return {
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    font-family: 'Schoolbell', sans-serif, serif, Arial;
+    color: lightgray;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.return:hover {
+    animation: hoverEffect 0.2s ease-in 0.2s 1 forwards;
+}
+
+@keyframes hoverEffect {
+    from { opacity: 50% }
+    to { opacity: 100% }
+}
 
 .board-content {
     background-color: #D0BDA6;
