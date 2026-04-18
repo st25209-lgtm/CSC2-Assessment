@@ -1,4 +1,3 @@
-/* the default sizes, the layout file changes these according to @media */
 .base {
     display: flex;
     justify-content: center;
