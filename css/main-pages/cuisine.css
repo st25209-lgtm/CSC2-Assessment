@@ -82,6 +82,18 @@
     height: 300px;
 }
 
+
+.cuisine-overview-description {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.cuisine-size {
+    padding: 0px 0px 0px 40px;
+    text-align: left;
+}
+
 @media screen and (max-width: 600px) {
     .cuisine-overview-description {
         font-size: 15px;
