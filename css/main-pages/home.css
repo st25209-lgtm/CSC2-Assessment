@@ -92,3 +92,14 @@
         padding: 0px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .specialty-grid, .casual-grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(3, 300px);
+        overflow: scroll;
+        padding: 0px;
+    }
+}
