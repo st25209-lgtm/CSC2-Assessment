@@ -1,3 +1,10 @@
+/* the default sizes, the layout file changes these according to @media */
+.base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 html {
     margin: 0;
     background-color: #e5d5c1;
@@ -11,23 +18,28 @@ a {
 .board {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10vh 85vh;
+    grid-template-rows: 10vh 90vh;
     gap: 20px;
+    max-height: 1500px;
+    max-width: 2000px;
+}
+
+.nav-base {
+    background-color: #2b1b1c;
+    border-radius: 10px;
+    width: 100%;
 }
 
 .board-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 10vw);
-    gap: 5vw;
-    grid-template-rows: 100vh;
-    background-color: #2b1b1c;
-    border: 1px solid black;
-    border-radius: 10px;
-    overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: 10vh;
+        background-color: #2b1b1c;
+        border-radius: 10px;
+        text-align: center;
 }
 
 .grid-item {
-    margin: 0px 0px 0px 5vw;
     text-align: center;
     vertical-align: middle;
     line-height: 10vh;
@@ -47,7 +59,6 @@ a:active {
 
 .board-content {
     background-color: #D0BDA6;
-    border: 0px solid none;
     border-radius: 10px;
     padding: 20px 15px;
     overflow: scroll;
