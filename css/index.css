@@ -18,7 +18,7 @@ a {
 .board {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10vh 90vh;
+    grid-template-rows: 10vh 85vh;
     gap: 20px;
     max-height: 1500px;
     max-width: 2000px;
