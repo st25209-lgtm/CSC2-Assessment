@@ -113,3 +113,14 @@
         text-align: center;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .cuisine-menu-section {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 920px);
+        grid-template-rows: repeat(2, auto);
+        overflow: scroll;
+        max-width: 2000px;
+    }
+}
