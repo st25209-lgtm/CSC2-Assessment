@@ -5,7 +5,7 @@
 .cuisine-menu-section {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(1, 900px);
+    grid-template-columns: repeat(1, 90%);
     grid-template-rows: repeat(4, auto);
     overflow: scroll;
 }
@@ -58,6 +58,7 @@
 }
 
 .cuisine-item {
+    min-width: 300px;
     max-width: 920px;
 }
 
