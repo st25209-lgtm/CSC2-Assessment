@@ -134,6 +134,17 @@
     animation: fade 1s ease-in 0s 1 forwards;
 }
 
+.map-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.map-area img {
+    border: 5px solid snow;
+}
+
 @keyframes fade {
     from { opacity: 70%; }
     to { opacity: 100%; }
