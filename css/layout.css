@@ -1,3 +1,8 @@
+.placeholder {
+    height: 0px;
+    width: 2000px;
+}
+
 .explore-heading p {
     font-family: 'Miranda Sans', sans-serif, Arial, serif;
     letter-spacing: 0.5px;
