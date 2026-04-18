@@ -60,6 +60,7 @@
 .cuisine-item {
     min-width: 200px;
     max-width: 920px;
+    overflow: hidden;
 }
 
 .cuisine-item-overview {
@@ -81,7 +82,6 @@
     width: 450px;
     height: 300px;
 }
-
 
 .cuisine-overview-description {
     display: grid;
