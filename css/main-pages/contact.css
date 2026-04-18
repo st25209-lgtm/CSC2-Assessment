@@ -185,4 +185,8 @@
         grid-template-columns: 10% 80% 10%;   
         height: 400px;
     }
+    .map-area img {
+        width: 800px;
+        height: 532px;
+    }
 }
