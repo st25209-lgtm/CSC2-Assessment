@@ -4,9 +4,9 @@
 
 .cuisine-menu-section {
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(1, 90%);
-    grid-template-rows: repeat(4, auto);
+    gap: 40px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(6, auto);
     overflow: scroll;
 }
 
