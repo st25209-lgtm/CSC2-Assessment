@@ -70,7 +70,6 @@
     color: #e5d5c1;
 }
 
-
 @media screen and (max-width: 1200px) {
     .specialty-grid, .casual-grid {
         display: grid;
