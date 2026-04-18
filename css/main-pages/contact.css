@@ -154,3 +154,11 @@
         height: 900px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .contact-image-slider {
+        display: grid;
+        grid-template-columns: 10% 80% 10%;   
+        height: 400px;
+    }
+}
