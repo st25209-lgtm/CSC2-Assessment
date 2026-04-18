@@ -1,3 +1,14 @@
+function backToHomepage() {
+    const show = document.getElementsByClassName("explore")
+    const notShow = document.querySelectorAll(".home-content,.cuisine-content,.about-us,.contact-content")
+    for (i = 0; i < show.length; i++) {
+        show[i].style.display = "block"
+    };
+    for (n = 0; n < notShow.length; n++) {
+        notShow[n].style.display = "none"
+    };    
+}
+
 function home() {
     const show = document.getElementsByClassName("home-content")
     const notShow = document.querySelectorAll(".explore,.cuisine-content,.about-us,.contact-content")
