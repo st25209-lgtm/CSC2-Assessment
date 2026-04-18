@@ -102,7 +102,7 @@
 
 @media screen and (max-width: 500px) {
     .cuisine-item {
-        height: 300px;
+        height: 280px;
     }
     .cuisine-item-overview {
         display: grid;
