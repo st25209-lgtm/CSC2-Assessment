@@ -41,6 +41,7 @@
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(2, 200px);
     overflow: scroll;
+    width: 100%;
 }
 
 .socials-item {
@@ -50,6 +51,7 @@
     background-color: #d5c8c8;
     border-radius: 30px;
     overflow: hidden;
+    width: 100%;
 }
 
 
