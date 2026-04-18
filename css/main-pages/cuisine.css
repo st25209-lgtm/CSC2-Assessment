@@ -136,7 +136,7 @@
     grid-template-rows: repeat(5, 250px);
     background-color: #2b1b1c;
     padding: 20px;
-    height: 250px;
+    height: 300px;
     overflow: scroll;
 }
 
