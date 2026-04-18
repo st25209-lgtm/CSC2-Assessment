@@ -119,9 +119,32 @@
     text-decoration: none;
 }
 
+.filler-text {
+    padding: 20px; 
+    background-color: gray;
+}
+
+.filler-text p {
+    font-family: 'Schoolbell', sans-serif, serif, Arial; 
+    color: lightgray
+}
+
+@media screen and (max-width: 700px) {
+    .recipe-board {
+        display: grid;
+        height: 200px;
+    }
+    .recipe-item {
+        height: 200px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .cuisine-overview-description {
         font-size: 15px;
+    }
+    .cuisine-heading {
+        font-size: 50px;
     }
 }
 
