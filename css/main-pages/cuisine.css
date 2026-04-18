@@ -99,9 +99,3 @@
         font-size: 15px;
     }
 }
-
-@media screen and (max-width: 400px) {
-    .cuisine-overview-description {
-        font-size: 10px;
-    }
-}
