@@ -50,6 +50,7 @@ a {
     font-size: 150%;
     color: #d5c8c8;
     text-decoration: none;
+    overflow: hidden;
 }
 
 a:active {
