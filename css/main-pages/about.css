@@ -127,6 +127,12 @@
     border-radius: 10px;
 }
 
+.featured-cuisine-item-2 {
+    padding: 20px;
+    font-family: 'Schoolbell', sans-serif, serif, Arial;
+    color: rgba(254, 248, 172);
+}
+
 @media screen and (max-width: 900px) {
     .about-country-grid {
         display: grid;
