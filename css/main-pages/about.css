@@ -51,6 +51,30 @@
     height: 200px;
 }
 
+@media screen and (min-width: 1300px) {
+    .article-anchor {
+        height: 400px;
+        padding: 0px;
+    }
+    .about-article-heading {
+        padding: 5px;
+    }
+    .about-article-introduction {
+        padding: 5px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 350px;
+        max-width: 1000px;
+    }
+    .about-quote {
+        font-size: 30px;
+        padding: 0px 5px 0px 5px;
+    }
+    .about-image img {
+        width: 660px;
+        height: 400px;
+    }
+}
+
 @media screen and (max-width: 675px) {
     .about-quote {
         font-size: 12px;
