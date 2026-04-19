@@ -121,6 +121,12 @@
     align-items: center;
 }
 
+.featured-cuisine-item-1 img {
+    width: 330px;
+    height: 300px;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 900px) {
     .about-country-grid {
         display: grid;
