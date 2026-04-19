@@ -34,3 +34,10 @@
     color: snow;
     letter-spacing: 5px;
 }
+
+.about-quote, .about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
