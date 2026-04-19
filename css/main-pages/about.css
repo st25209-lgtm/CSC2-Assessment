@@ -60,6 +60,13 @@
     font-family: 'Schoolbell', sans-serif, serif, Arial;
 }
 
+.country-synopsis {
+    padding: 20px;
+    background-color: #e5d5c1;
+    color: #2b1b1c;
+    border: 5px solid #2b1b1c;
+}
+
 .about-country-grid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
