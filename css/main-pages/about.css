@@ -51,6 +51,13 @@
     height: 200px;
 }
 
+@media screen and (max-width: 450px) {
+    .about-quote {
+        font-size: 8px;
+        padding: 0px 5px 0px 5px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .article-anchor {
         height: 350px;
