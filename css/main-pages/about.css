@@ -51,6 +51,15 @@
     height: 200px;
 }
 
+.about-country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b1b1c;
+    font-family: 'Schoolbell', sans-serif, serif, Arial;
+}
+
 @media screen and (min-width: 1300px) {
     .article-anchor {
         height: 400px;
