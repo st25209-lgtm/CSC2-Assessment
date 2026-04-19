@@ -137,6 +137,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(37, 56, 37);
+    padding: 20px;
 }
 
 @media screen and (max-width: 900px) {
