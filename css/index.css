@@ -91,6 +91,12 @@ a:active {
     overflow: hidden;
 }
 
+@media screen and (min-width: 1500px) and (max-width: 1850px) {
+    #logo {
+        width: 300px;
+        height: 300px;
+}
+}
 @media screen and (min-width: 1850px) {
     #logo {
         width: 432px;
