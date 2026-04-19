@@ -1,3 +1,4 @@
+/* the default sizes, the layout file changes these according to @media */
 .base {
     display: flex;
     justify-content: center;
@@ -37,6 +38,7 @@ a {
         border-radius: 10px;
         text-align: center;
 }
+/* ensures that the content is aligned properly */
 
 .grid-item {
     display: flex;
@@ -83,4 +85,10 @@ a:active {
     overflow-x: 0px;
     overflow-y: 200px;
 }
+
+.logo {
+    background-color: rgba(254, 248, 172);
+    overflow: hidden;
+}
+
 /* source: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block */
