@@ -104,7 +104,6 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 600px;
-    height: 600px;
     width: 100%;
     max-width: 1500px;
     background-color: rgb(37, 56, 37);
@@ -131,17 +130,6 @@
     padding: 20px;
     font-family: 'Schoolbell', sans-serif, serif, Arial;
     color: rgba(254, 248, 172);
-}
-
-@media screen and (max-width: 600px) {
-    .featured-cuisine-item-2 {
-        font-size: 12px;
-    }
-    .featured-cuisine-item-1 img {
-        width: 165px;
-        height: 150px;
-        border-radius: 10px;
-    }
 }
 
 @media screen and (max-width: 900px) {
