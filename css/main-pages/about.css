@@ -60,6 +60,15 @@
     font-family: 'Schoolbell', sans-serif, serif, Arial;
 }
 
+.about-country-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    max-width: 1500px;
+    padding: 20px;
+    overflow: scroll;
+}
+
 @media screen and (min-width: 1300px) {
     .article-anchor {
         height: 400px;
