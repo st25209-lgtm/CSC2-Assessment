@@ -39,9 +39,10 @@ a {
 }
 
 .grid-item {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .grid-item a {
