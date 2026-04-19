@@ -14,11 +14,6 @@
         font-family: 'Inter', sans-serif, Arial, serif;
 }
 
-@media screen and (max-width: 400px) {
-    .board-grid {
-        font-size: 10px;
-    }
-}
 
 @media screen and (max-width: 1500px) {
     .explore-heading {
@@ -45,13 +40,6 @@
     .board {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 15vh 80vh;
-        gap: 20px;
-    }
-    .grid-item {
-        margin: 0px 0px 0px 5vw;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 15vh;
+        grid-template-rows: 10vh 85vh;
     }
 }
