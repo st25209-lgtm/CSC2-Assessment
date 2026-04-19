@@ -133,6 +133,17 @@
     color: rgba(254, 248, 172);
 }
 
+@media screen and (max-width: 600px) {
+    .featured-cuisine-item-2 {
+        font-size: 12px;
+    }
+    .featured-cuisine-item-1 img {
+        width: 165px;
+        height: 150px;
+        border-radius: 10px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .about-country-grid {
         display: grid;
