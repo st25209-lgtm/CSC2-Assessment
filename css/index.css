@@ -124,11 +124,11 @@ a:active {
         height: 300px;
 }
 }
+
 @media screen and (min-width: 1850px) {
     #logo {
         width: 432px;
         height: 432px;
 }
 }
-
 /* source: https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block */
