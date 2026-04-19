@@ -10,6 +10,7 @@
     height: 200px;
     padding: 20px;
 }
+
 .about-article-heading {
     font-family: 'Miranda Sans';
     font-size: 50px;
@@ -45,7 +46,6 @@
 .about-image {
     border-radius: 20px;
 }
-
 .about-image img {
     width: 330px;
     height: 200px;
