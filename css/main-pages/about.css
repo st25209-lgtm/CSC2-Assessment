@@ -84,6 +84,18 @@
     overflow: hidden;
 }
 
+@media screen and (max-width: 500px) {
+    .about-country-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 200px);
+    }
+    .about-country-item {
+        font-size: 8.5px;
+        padding: 20px 0px;
+    }
+}
+
 @media screen and (max-width: 300px) {
     .about-country-grid {
         grid-template-rows: repeat(3, 300px);
