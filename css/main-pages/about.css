@@ -1,0 +1,29 @@
+.about-content {
+    background-color: #2b1b1c;
+}
+
+.article-anchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b1b1c;
+    height: 200px;
+    padding: 20px;
+}
+.about-article-heading {
+    font-family: 'Miranda Sans';
+    font-size: 50px;
+    font-weight: 600;
+    background-color: #2b1b1c;
+    color: #D0BDA6;
+    padding: 30px 0px 10px 20px;
+}
+
+.about-article-introduction {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px;
+    background-color: #2b1b1c;
+    max-width: 660px;
+    padding: 20px;
+}
