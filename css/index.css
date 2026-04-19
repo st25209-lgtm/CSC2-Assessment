@@ -91,6 +91,12 @@ a:active {
     overflow: hidden;
 }
 
+@media screen and (max-width: 250px) {
+    .grid-item a {
+        font-size: 12px;
+    }   
+}
+
 @media screen and (max-width: 450px) {
     #logo {
         width: 70px;
