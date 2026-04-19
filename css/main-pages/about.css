@@ -84,6 +84,14 @@
     overflow: hidden;
 }
 
+@media screen and (max-width: 220px) {
+    .about-country-item {
+        font-size: 6px;
+        padding: 0px 0px;
+    }
+}
+
+
 @media screen and (min-width: 1300px) {
     .article-anchor {
         height: 400px;
