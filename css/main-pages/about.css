@@ -76,6 +76,14 @@
     overflow: scroll;
 }
 
+.about-country-item {
+    padding: 20px;
+    color: snow;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    overflow: hidden;
+}
+
 @media screen and (min-width: 1300px) {
     .article-anchor {
         height: 400px;
