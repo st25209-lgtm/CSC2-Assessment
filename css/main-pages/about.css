@@ -132,6 +132,13 @@
     color: rgba(254, 248, 172);
 }
 
+.featured-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 56, 37);
+}
+
 @media screen and (max-width: 900px) {
     .about-country-grid {
         display: grid;
