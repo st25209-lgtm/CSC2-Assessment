@@ -84,7 +84,14 @@
     overflow: hidden;
 }
 
-
+.featured-heading {
+    padding: 20px 5px;
+    font-family: 'Miranda Sans', sans-serif, serif, Arial;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: rgba(254, 248, 172);
+    color: rgb(37, 56, 37);;
+}
 @media screen and (max-width: 900px) {
     .about-country-grid {
         display: grid;
