@@ -140,6 +140,13 @@
     padding: 20px;
 }
 
+.featured-information-list {
+    width: 100%;
+    font-family: 'Schoolbell', sans-serif, serif, Arial;
+    font-size: 30px;
+    color: rgba(254, 248, 172);
+}
+
 @media screen and (max-width: 900px) {
     .about-country-grid {
         display: grid;
