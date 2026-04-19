@@ -107,6 +107,12 @@
     overflow: hidden;
 }
 
+.featured-cuisine-item-1, .featured-cuisine-item-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 900px) {
     .about-country-grid {
         display: grid;
