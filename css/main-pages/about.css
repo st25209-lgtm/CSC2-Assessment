@@ -50,3 +50,23 @@
     width: 330px;
     height: 200px;
 }
+
+@media screen and (max-width: 320px) {
+    .article-anchor {
+        height: 350px;
+        padding: 0px;
+    }
+    .about-article-heading {
+        padding: 5px;
+        font-size: 35px;
+    }
+    .about-article-introduction {
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 200px;
+        padding: 5px;
+    }
+    .about-quote {
+        font-size: 8px;
+        padding: 0px 5px 0px 5px;
+    }
+}
